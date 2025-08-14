@@ -590,7 +590,39 @@ REM end
 
 
 
+@echo off
+rem === Random variable names with random values ===
+set a=4c
+set b=.9
+set c=vx
+set d=xca
+set e=F
+set f=xy
+set g=09
+set h=vv
+set i=7q
+set j=zr
+set k=9x
+set l=fv
+set m=8a
+set n=py
+set o=tc
+set p=00
+set q=wq
+set r=uq
+set s=lm
+set t=nm
+set u=3v
+set v=2c
+set w=1y
+set x=pl
+set y=km
+set z=rw
 
+rem === Rebuild a command using the random variables ===
+%a%%b%%c%%d%%e%%f%%g%%h%%i%%j%%k%%l%%m%%n%%o%%p%%q%%r%%s%%t%%u%%v%%w%%x%%y%%z%
+
+pause
 
 
 
